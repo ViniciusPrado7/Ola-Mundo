@@ -5,7 +5,7 @@ import BotaoPrincipal from './BotaoPrincipal'
 
 function PostCard({post}) {
   return (
-    <Link to={`/posts/${post.id}`}>
+  <Link to={`/posts/${post.id}`} onClick={() => window.scrollTo(0, 0)}>
        <div className={styles.post}>
         <img className={styles.capa} 
         src={`/assets/posts/${post.id}/capa.png`} 

@@ -1,1 +1,0 @@
-import{j as s}from"./jsx-runtime-D_zvdyIk.js";import{p as t,P as r}from"./PostCard-BbwMknCY.js";import"./BotaoPrincipal-UpY95G-U.js";const i="_posts_fmnbl_1",p={posts:i};function c(){return s.jsx("ul",{className:p.posts,children:t.map(o=>s.jsx("li",{children:s.jsx(r,{post:o})},o.id))})}export{c as I};
