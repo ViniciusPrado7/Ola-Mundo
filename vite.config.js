@@ -9,11 +9,11 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(dirname, 'index.html'),
-        inicio: resolve(dirname, './src/pages/Inicio.jsx'),
-        NaoEncontrada: resolve(dirname, './src/pages/NaoEncontrada.jsx'),
-        post: resolve(dirname, './src/pages/Post.jsx'),
-        sobreMim: resolve(dirname, './src/pages/SobreMim.jsx'),
+        main: resolve(__dirname, 'index.html'),
+        inicio: resolve(__dirname, './src/pages/Inicio.jsx'),
+        NaoEncontrada: resolve(__dirname, './src/pages/NaoEncontrada.jsx'),
+        post: resolve(__dirname, './src/pages/Post.jsx'),
+        sobreMim: resolve(__dirname, './src/pages/SobreMim.jsx'),
       }
     }
   }
